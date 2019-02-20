@@ -88,7 +88,7 @@ function sshConnect() {
       host: '54.234.92.39',
       username: 'ubuntu',
       passphrase: 'Catandthehat1@',
-      privateKey: 'privKey_todo.ppk'
+      privateKey: './privKey_todo.ppk'
     })
     .then(function() {
       console.log('SSH Connection established.');
